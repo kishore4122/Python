@@ -1,0 +1,42 @@
+# 
+{"DevOps": ["Aws", "Jenkisn", "Python", "Ansible"], "Development": ["Java", "NodeJS", "Angular", "Javascript"] "ansible_facts": {"python": "/usr/bin/python"}}
+
+#Json format
+{
+    "DevOps": 
+    [
+        "Aws",
+        "Jenkisn", 
+        "Python", 
+        "Ansible"
+    ], 
+    "Development": 
+    [
+        "Java", 
+        "NodeJS", 
+        "Angular", 
+        "Javascript"
+    ] 
+    "ansible_facts": 
+    {
+        "python": "/usr/bin/python"
+    }
+}
+
+#YAML
+
+DevOps:   
+- Aws
+- Jenkisn 
+- Python 
+- Ansible
+ 
+Development:
+- Java 
+- NodeJS 
+- Angular 
+- Javascript
+
+ansible_facts: 
+    python: /usr/bin/python
+    

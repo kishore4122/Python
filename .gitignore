@@ -1,0 +1,4 @@
+#Ignoring practise.py file
+practise.py
+.idea
+.vscode
